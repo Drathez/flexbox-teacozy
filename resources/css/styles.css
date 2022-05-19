@@ -1,0 +1,162 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+nav .logo > img {
+    padding-left: 10px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.navbar > ul > li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#mission {
+    position:relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    top: 69px;
+    width: 1200px;
+    height: 700px;
+    background-image: url("../images/img-mission-background.jpg");
+    scroll-margin-top: 69px;
+}
+
+#words {
+    width: 1200px;
+    text-align: center;
+    padding: 25px;
+}
+
+#words > h2 {
+    font-size: 40px;
+}
+
+#words > h4 {
+    font-size: 20px;
+}
+
+#tea {
+    position: relative;
+    top: 170px;
+    margin: auto;
+    width: 1000px;
+    scroll-margin-top: 69px;
+}
+
+#tea > h1 {
+    font-size: 35px;
+}
+
+#teapics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+#teapics > figure > img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#location {
+    position:relative;
+    top: 250px;
+    width: 1200px;
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: 1200px 700px;
+    margin: auto;
+    scroll-margin-top: 69px;
+}
+
+#location > * {
+    background-color: transparent;
+}
+
+#location > h1 {
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: 70px;
+}
+
+
+#locationbox {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    opacity: 1;
+}
+
+.box {
+    width: 300px;
+    padding: 40px 0px;
+    line-height: 1.2rem;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.box > h3 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.box > h4 {
+    font-size: 20px;
+}
+
+.box+.box::before {
+    margin-left:1006px;
+}
+
+footer {
+    position:relative;
+    top:300px;
+    margin: auto;
+    height: 200px;
+}
+
+footer > h1 {
+    font-size: 40px;
+}
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
